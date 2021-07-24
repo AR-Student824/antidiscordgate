@@ -28,4 +28,4 @@ x.on('guildCreate', guild => {
 		}
 	})
 })
-x.login('NjkxMDUxMzU5Mjc2ODkyMjUx.XnaVuw.T_OYf8enGlDLCx6F8Uw0ihvV4NQ')
+x.login('REDACTED')

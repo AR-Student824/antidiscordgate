@@ -2,7 +2,6 @@ const Discord = require('discord.js')
 const x = new Discord.Client()
 
 x.on('ready', () => {
-	console.log('ok')
 	x.guilds.cache.forEach(guild => {
 		var g = guild.members.cache.map(member => member.id)
 		g.forEach(user => {
